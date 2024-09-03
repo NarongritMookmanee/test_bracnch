@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "test": "node test.js",
-    "start": "node main.js"
+    "start": "node main.cjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "node-cron": "^3.0.3"
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.15"
   }
 }
