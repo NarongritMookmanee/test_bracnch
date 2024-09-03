@@ -55,3 +55,4 @@ data.pathConfig.forEach(task => {
 //test
 //test
 //test
+console.log('tst')
