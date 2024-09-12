@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node test.js",
+    "test": "node test.cjs",
     "start": "node main.cjs"
   },
   "keywords": [],

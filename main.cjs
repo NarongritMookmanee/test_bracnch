@@ -9,6 +9,7 @@ async function sendEmail(project, errDescriptions, callback) {
   const rawMailOptions = {
     id: '238219fjdjf',
     project: 'IDP Demo',
+    enable: true,
     mailOptions: {
       to: 'znarongrit.m@pttdigital.com',
       subject: 'IDP system - Error handler of Project: ${project}',
